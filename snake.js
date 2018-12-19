@@ -2,8 +2,8 @@ const readLine = require("readline");
 readLine.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
 
-const X = 80;
-const Y = 30;
+const X = 200;
+const Y = 45;
 let score = 0;
 let lstCMD = "left";
 let mainGame = [];
